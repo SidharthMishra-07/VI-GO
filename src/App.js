@@ -9,12 +9,12 @@ function App() {
       <Router>
         <div className="container">
           <Switch>
-          <Route exact path="/">
-            <Land/>
+            <Route exact path="/">
+              <Land />
             </Route>
             <Route exact path="/home">
-            <Navbar />
-              <Home/>
+              <Navbar />
+              <Home />
             </Route>
           </Switch>
         </div>

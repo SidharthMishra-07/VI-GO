@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-router-dom";
 import "./Home.css";
 
 function Home() {
@@ -8,11 +9,11 @@ function Home() {
         <div className="wrapper">
             <div className="card1">
                 <h2>RIDER</h2>
-                <button className='btn'>Select Rider</button>
+                <Link className="btn" to="/rider" role="button">Select Rider</Link>
             </div>
             <div className="card1">
                 <h2>RENTER</h2>
-                <button className='btn'>Select Renter</button>
+                <Link className="btn" to="/renter" role="button">Select Renter</Link>
             </div>
         </div>
         
