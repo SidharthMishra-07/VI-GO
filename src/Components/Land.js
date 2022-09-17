@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "./Land.css";
 function Land() {
   return (
     <div>

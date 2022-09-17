@@ -7,9 +7,11 @@ function App() {
   return (
     <>
       <Router>
-        <Land/>
         <div className="container">
           <Switch>
+          <Route exact path="/">
+            <Land/>
+            </Route>
             <Route exact path="/home">
             <Navbar />
               <Home/>
