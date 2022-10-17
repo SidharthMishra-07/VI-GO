@@ -5,7 +5,7 @@ import "./Home.css";
 function Home() {
   return (
     <div className="homemain">
-        <h1>Home</h1>
+      <h1 className='hide'>HOME</h1>
         <div className="wrapper">
             <div className="card1">
                 <h2>RIDER</h2>

@@ -1,7 +1,14 @@
-body{
-    background:url('https://wallpaperaccess.com/full/1346801.jpg');
+.homemain{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    overflow-y: hidden;
+    background:-webkit-linear-gradient(left, #458cb2, #4282fa);
     background-size:cover;
     background-repeat:no-repeat;
+}
+.hide{
+    visibility: hidden;
 }
 .wrapper{
     display: flex;
@@ -15,21 +22,21 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 30rem;
+    width: 40rem;
     height: 20rem;
-    background-color: #121415;
+    background-color: white;
     border-radius: 50px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     padding: 20px;
     margin: 20px;
-    box-shadow: 0 0 40px #ffffff;
+    box-shadow: 0 0 40px black;
 }
 .card1:hover{
     box-shadow: 0 0 40px #21d2fa;
     transition: all 0.5s ease-in-out 0.2s;
 }
 .card1 h2{
-    color: white;
+    color: black;
     font-size: 4.5vw;
     font-weight: 700;
     font-family: 'Inter', sans-serif;
@@ -45,9 +52,9 @@ Link{
     align-items: center;   
     width: 200px;
     height: 65px;
-    background-color: #21f5e3;
+    background-color: black;
     border-radius: 20px;
-    color: black;
+    color: white;
     font-size: 24px;
     font-weight: 700;
     font-family: 'Inter', sans-serif;
@@ -55,5 +62,5 @@ Link{
     transition: all 0.5s ease;
 }
 .btn:hover{
-    background-color: #21d2fa;
+    background-color: #4282fa;
 }
